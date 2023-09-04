@@ -13,6 +13,7 @@ const { User, Blog, Comment } = require("./models");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// cookie sets session age
 const sess = {
   secret: process.env.DB_SESSION_SECRET,
   cookie: {
@@ -34,8 +35,8 @@ app.set('view engine', 'handlebars');
 
 app.use("/", allRoutes);
 
-sequelize.sync({ force: false }).then(function() {
-  app.listen(PORT, function() {
+sequelize.sync({ force: false }).then(function () {
+  app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
   });
 });

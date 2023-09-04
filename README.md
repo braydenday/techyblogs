@@ -3,7 +3,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br>
 
 ## Description
-<!-- Employee tracker database created through mysql db and seeds to interact with your work staff. You can view all departments, roles, and employees in the command line. I learned how to properly relate foreign keys to communicate in the database. -->
+A full stack blog site for everyone to share their thoughts and posts. You can signup or log in to create and review posts. I learned how to properly use sessions to store login info for 30 minutes while you browse the website!
 
 ## Table of Contents
 - [Description](#description)
@@ -15,10 +15,16 @@
 - [Questions](#questions)
 
 ## Installation
-<!-- npm i then log into your mysql to source db/schema.sql and seeds.sql... after both those are done, you can run node index.js to start the command line application -->
+N/A
 
 ## Usage
-<!-- A command line application created to organize your work departments, employees, and roles! -->
+1. Run command "mysql -uroot -p" and enter your password
+2. Run command "source db/schema.sql" to set up the database and tables
+3. Run 'quit' in MySql
+4. Run command "npm run seed"
+5. Run command "npm run start"
+6. Open 'localhost:3001' in the browser and see my site in action!
+7. When done browsing, run CTRL-C in terminal to end the session
 
 <!-- ![note-taker](/Develop/public/assets/screenshot1.png?raw=true "Express Note Taker") -->
 

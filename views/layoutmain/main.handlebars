@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
     <header id="navheader" class="text-white">
         <section></section>
         {{#if loggedIn}}
-            <a href="/">Home</a>
-            <a href="/dashboard">Dashboard</a>
-            <a href="/api/users/logout">Logout</a>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/api/users/logout">Logout</a>
         {{else}}
-            <a href="/">Home</a>
-            <a href="/dashboard">Dashboard</a>
-            <a href="/login">Login</a>
-        {{/if}}  
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/login">Login</a>
+        {{/if}}
     </header>
     <main>
         {{{body}}}
     </main>
 </body>
+
 </html>
