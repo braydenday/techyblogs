@@ -47,7 +47,7 @@ router.get("/blogs/:id", (req, res) => {
             const loggedIn = req.session.user ? true : false;
             console.log(hbsBlog)
             if (dbBlog.userId != req.session.user.id) {
-            // render the comment page
+                // render the comment page
                 return res.render('comment', { hbsBlog, loggedIn, username: req.session.user?.username })
             }
             // render update/delete page

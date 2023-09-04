@@ -1,3 +1,4 @@
+// basic skeleton code for server connect
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
