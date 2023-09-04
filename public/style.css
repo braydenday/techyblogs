@@ -6,12 +6,12 @@
 
 body {
     height: 100vh;
-    background-color: azure;
+    background-color: white;
 }
 
 header,
 h1 {
-    background-color: #355C7D;
+    background-color: #0072bb;
     padding: 10px;
     color: white !important;
 }
@@ -23,13 +23,13 @@ header a {
 }
 
 .card-title {
-    background-color: #355C7D;
+    background-color: #0072bb;
     color: white;
     padding: 5px;
 }
 
 .card {
-    background-color: azure;
+    background-color: white;
 }
 
 .card h5,
