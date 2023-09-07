@@ -18,7 +18,7 @@ User.init({
         }
     }
 }, {
-    // hooks to hash and salt pw
+    // hook to hash and salt pw
     hooks: {
         beforeCreate: async userdata => {
             userdata.password = await bcrypt.hash(userdata.password, 5)
