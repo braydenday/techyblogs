@@ -26,7 +26,8 @@ N/A
 6. Open 'localhost:3001' in the browser and see my site in action!
 7. When done browsing, run CTRL-C in terminal to end the session
 
-<!-- link to deployed application -->
+Live deployed application on Heroku:
+https://guarded-depths-74082-8f2fc31416d3.herokuapp.com/
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
